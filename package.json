@@ -23,7 +23,7 @@
     "postinstall": "pnpm build:infra"
   },
   "devDependencies": {
-    "nx": "16.6.0",
+    "nx": "18.3.4",
     "nx-cloud": "latest"
   }
 }
