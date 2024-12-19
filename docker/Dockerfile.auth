@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:20-alpine
 
 WORKDIR /app
 
@@ -14,7 +14,7 @@ RUN pnpm version:prod && pnpm install
 RUN pnpm build:auth
 
 
-FROM node:18-alpine
+FROM node:20-alpine
 
 WORKDIR /app
 
